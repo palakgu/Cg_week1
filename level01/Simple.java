@@ -1,0 +1,24 @@
+
+
+import java.util.*;
+class Simple{
+public static void main(String[] args){
+Scanner sc = new Scanner(System.in);
+System.out.println("Enter the principal ");
+double principal = sc.nextInt();
+System.out.println("Enter the Rate ");
+double rate = sc.nextInt();
+
+System.out.println("Enter the Time ");
+double time = sc.nextInt();
+
+SimpleInt(principal , rate , time);
+
+}
+
+public static void SimpleInt(double principal , double rate , double time){
+
+double Si = (principal*rate*time)/100;
+System.out.println("The Simple Interest is "+ Si+ " for Principal "+ principal+"  Rate of Interest "+ rate +" and Time " + time);
+}
+}
